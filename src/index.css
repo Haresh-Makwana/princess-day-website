@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-pacifico: "Pacifico", cursive;
+  --font-quicksand: "Quicksand", sans-serif;
+  --color-pink-50: #fdf2f8;
+  --color-pink-100: #FFD1DC;
+  --color-pink-200: #fbcfe8;
+  --color-pink-500: #ec4899;
+}
+
+html, body, #root {
+  height: 100dvh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: var(--color-pink-50); 
+}
